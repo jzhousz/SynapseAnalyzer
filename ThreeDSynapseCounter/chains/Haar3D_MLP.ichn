@@ -1,0 +1,21 @@
+[CHAIN_START]
+Name=Haar + SVM
+[FEATURE_EXTRACTOR]
+Name=Anisotropic 3D Wavelet
+ClassName=annotool.extract.StackSimpleHaarFeatureExtractor
+Path=null
+[PARAMETER_START]
+Wavelet Level=2
+Midstacks to Include=3
+WEIGHTED=1
+[PARAMETER_END]
+[CLASSIFIER]
+Name=Multilayer Perceptron
+ClassName=annotool.classify.MLP.MLPClassifier
+Path=null
+[PARAMETER_START]
+Windowed Momentum=0
+Hidden Nodes=50
+Uplimit of Iterations=3000
+[PARAMETER_END]
+[CHAIN_END]

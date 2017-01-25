@@ -1,0 +1,32 @@
+[CHAIN_START]
+Name=Chain 1
+[FEATURE_EXTRACTOR]
+Name=FeatureJ Statistics 3D
+ClassName=annotool.extract.FeatureJStatistics3D
+Path=null
+[PARAMETER_START]
+SDEVIATION=0
+MINIMUM=1
+MEAN=1
+VARIANCE=0
+AVERAGE ABSOLUTE DEVIATION=0
+SKEWNESS=1
+MAXIMUM=1
+ELEMENTS=0
+MEDIAN=1
+L1NORM=0
+MODE=1
+MASS=1
+KURTOSIS=0
+L2NORM=0
+[PARAMETER_END]
+[CLASSIFIER]
+Name=Multilayer Perceptron
+ClassName=annotool.classify.MLP.MLPClassifier
+Path=null
+[PARAMETER_START]
+Windowed Momentum=0
+Hidden Nodes=50
+Uplimit of Iterations=3000
+[PARAMETER_END]
+[CHAIN_END]
