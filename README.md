@@ -9,7 +9,7 @@ This project contains codes for a 3D synapse quantifier.   It is to analyze 3D s
 
 The system consists of 3 components: Synapse Counter, Neuron Reconstructor and Distribution Quantifier.  The 3rd component takes the outputs of the first two components to produce the subcellular synapse distribution.
 
-1. Synapse Counter
+## Synapse Counter
 
 Code:
 
@@ -26,7 +26,7 @@ Output: marker files of detected synapses.
 
 Note: If the image has a pre-synaptic channel,  run Colocal_filer.java for co-localization of post- and pre- synaptic makers.
 
-2. Neuron Reconstructor 
+## Neuron Reconstructor 
 
 Code/Usage: 
 
@@ -37,7 +37,7 @@ Input: 3D image of the neurite
 
 Output: a swc file that describes the structure of neurite.
 
-3. Synapse Distribution Quantifier 
+## Synapse Distribution Quantifier 
 
 Code:
 
