@@ -7,7 +7,7 @@ Jonathan Sanders, Edward Hottendorf , Gabriella Sterne, Hanchuan Peng, Bing Ye, 
 
 This project contains codes for a 3D synapse quantifier.   It is to analyze 3D subcellular synapse distribution using multi-channel microscopic images.
 
-The system consists of 3 components: Synapse Counter, Neuron Reconstructor and Distribution Quantifier.  The 3rd component takes the outputs of the first two components to produce the subcellular synapse distribution.
+The system consists of 3 components: Synapse Counter, Neuron Reconstructor and Distribution Quantifier.  The 3rd component, Distribution Quantifier, takes the outputs of the first two components to produce the subcellular synapse distribution. Example outputs of synapse counter and neuron reconstructor are provided for testing out the Distribution Quantifier directly.
 
 ## Synapse Counter
 
@@ -17,10 +17,10 @@ Code:
  
 Usage:   
 
-Synapse Counter is an ImageJ Plugin.   Follow the Section (3) of the readme.txt
+Synapse Counter is an ImageJ Plugin.   Follow 
 ./ThreeDSynapseCounter/readme.txt
  
-Input:¬ 3D image of synapses. Preprocessing steps are described in readme.txt Section (2), if needed.
+Input: 3D image of synapses. Preprocessing steps are described in ./ThreeDSynapseCounter/readme_long.txt Section (2), if needed.
 
 Output: marker files of detected synapses.  
 
